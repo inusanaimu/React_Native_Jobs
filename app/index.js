@@ -25,7 +25,9 @@ const Home = () => {
             }}
             />
 
-            <ScrollView showsVerticalScrollIndicator={ false } />
+            <ScrollView showsVerticalScrollIndicator={false}>
+                
+            </ScrollView>
 
         </SafeAreaView>
     )
