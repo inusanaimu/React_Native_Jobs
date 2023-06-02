@@ -13,7 +13,7 @@ const Welcome = (user = "Inusa Naimu") => {
   return (
     <View>
      <View style={styles.container}>
-      <Text style={styles.userName}>Hello John Doe</Text>
+      <Text style={styles.userName}>Hello Inusa Naimu</Text>
       <Text style={styles.welcomeMessage}>Find your Perfect jobs</Text>
      </View>
 
