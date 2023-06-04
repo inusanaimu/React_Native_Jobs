@@ -1,4 +1,4 @@
-import { useState } from "react";
+ import { useState } from "react";
 import { View, ScrollView, SafeAreaView } from "react-native";
 import { Stack, useRouter } from "expo-router";
 
@@ -32,8 +32,7 @@ const Home = () => {
                     flex:1,
                     padding: SIZES.medium
                 }}>
-                    <Welcome
-                    />
+                    <Welcome/>
                     <Popularjobs/>
                     <Nearbyjobs/>
                 </View>
