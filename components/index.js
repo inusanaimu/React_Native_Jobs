@@ -19,7 +19,7 @@ export {
   ScreenHeaderBtn,
   Welcome,
   Nearbyjobs,
-  Popularjobs as Popularizes,
+  Popularjobs,
   Company,
   JobTabs,
   JobAbout,

@@ -14,10 +14,9 @@ const Popularjobs = () => {
     'search', { query : "React developer", num_pages:1}
   )
   
-console.log(data)
 
   return (
-    <View style= {styles.container}>
+    <View style={styles.container}>
       <View style={styles.header}>
       <Text style = {styles.headerTitle}>Popular jobs</Text>
 
@@ -28,27 +27,26 @@ console.log(data)
 
 <View style={styles.cardsContainer}>
   {isLoading? (
-  <ActivityIndicator size="large" colors={COLORS.primary}/>
+    <ActivityIndicator size="large" colors={COLORS.primary}/>
   ) : error? (
     <Text> Something went wrong</Text>
-  ) : (
-    <FlatList
-    data={data}
+    ) : (
+      <FlatList
+      data={data}
     renderItem={({item})=>(
       <PopularJobsCard 
       item ={item}
       />
-    )}
-    keyExtractor={item => item?.job_id}
-    contentContainerStyle = {{columnGap:SIZES.medium}}
-    horizontal
+      )}
+      keyExtractor={item => item?.job_id}
+      contentContainerStyle = {{columnGap:SIZES.medium}}
+      horizontal
     />
 )}
-
 </View>
 
-    </View>
-  )
+    </View> 
+    )
 }
 
 export default Popularjobs
