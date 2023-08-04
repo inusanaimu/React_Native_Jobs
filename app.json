@@ -5,6 +5,19 @@
       "bundler": "metro"
     },
     "name": "React_Native_Jobs",
-    "slug": "React_Native_Jobs"
+    "slug": "React_Native_Jobs",
+    "extra": {
+      "eas": {
+        "projectId": "6e3c7614-805f-42fb-ae00-58981607d4e1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6e3c7614-805f-42fb-ae00-58981607d4e1"
+    },
+    "android": {},
+    "ios": {}
   }
 }
